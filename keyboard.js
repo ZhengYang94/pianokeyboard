@@ -7,6 +7,8 @@ var audioSix = document.getElementById('audioSix');
 var audioSeven = document.getElementById('audioSeven');
 var audioEight = document.getElementById('audioEight');
 var audioNine = document.getElementById('audioNine');
+
+//global Var
 var key = document.getElementsByClassName("key");
 
 
