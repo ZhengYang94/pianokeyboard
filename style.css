@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body, html {
+
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(65, 70, 61);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+#container {
+    background-color: rgb(235, 235, 211);
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 90px;
+}
+
+#home {
+    background-color: rgb(244, 211, 94);
+}
+
+#about {
+    background-color: rgb(238, 150, 75);
+}
+
+#contact {
+    background-color: rgb(249, 87, 56);
+}
